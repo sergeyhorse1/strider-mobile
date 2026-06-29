@@ -1,0 +1,60 @@
+# deps
+node_modules/
+
+# expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# native (Android)
+android/build/
+android/app/build/
+android/.gradle/
+android/local.properties
+android/captures/
+*.iml
+
+# native (iOS)
+ios/build/
+ios/Pods/
+ios/*.xcuserstate
+ios/DerivedData/
+
+# signing / secrets
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# env
+.env
+.env.*
+!.env.example
+
+# misc
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+
+# Metro
+.metro-health-check*
+
+# typescript
+*.tsbuildinfo
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# local database (Drizzle/SQLite during dev)
+*.db
+*.db-journal
+
+# generated screenshots tmp
+/docs/screenshots/_tmp/
